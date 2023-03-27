@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- form 태그로 영역설정 -->
+    <form action="result.html" method="get">
+        <!-- 입력 양식의 그룹 지정 -->
+        <fieldset>
+            <!-- 입력 양식 그룹의 이름 지정 -->
+            <legend>입력양식</legend>
+            <!-- 테이블 태그 -->
+            <table>
+                <!-- 행 삽입 -->
+                <tr>
+                    <!-- 일반 셀 생성 -->
+                    <td><label for="name">이름</label></td>
+                    <td><input id="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="mail">이메일</label></td>
+                    <td><input id="mail" type="email"></td>
+                </tr>
+            </table>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
