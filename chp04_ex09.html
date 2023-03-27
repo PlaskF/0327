@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>글 작성하기</h1>
+    </header>
+    <table>
+        <form action="result.html" method="get">
+                <table>
+                    <tr>
+                        <td><label for="name"><b>작성자</b></label></td>
+                        <td><input id="name" type="text" size="20" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ID"><b>아이디</b></label></td>
+                        <td><input id="ID" type="text" size="20" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mail"><b>이메일</b></label></td>
+                        <td colspan="3">
+                            <input id="mail" type="email" size="20" >
+                            @
+                            <select name="mail" id="mail">
+                                <option value="blank"></option>
+                                <option value="naver.com">naver.com</option>
+                                <option value="google.com">google.com</option>
+                                <option value="hanmail.net">hanmail.net</option>
+                                <option value="jickjup">직접 입력</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone"><b>휴대폰</b></label></td>
+                        <td colspan="5">
+                            <select name="pront" id="pront">
+                                <option value="010">010</option>
+                                <option value="016">016</option>
+                                <option value="019">019</option>
+                            </select>
+                            -
+                            <input id="phone" type="text" size="20" >
+                            -
+                            <input id="phone" type="text" size="20" >
+                        </td>                    
+                    </tr>
+                    <tr>
+                        <td><label for="chapter"><b>글제목</b></label></td>
+                        <td><input id="chapter" type="text" size="20" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="summary"><b>내용</b></label></td>
+                        <td><textarea name="content1" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="6"><input type="submit"></td>
+                    </tr>
+                </table>
+        </form>
+    </table>
+</body>
+</html>
